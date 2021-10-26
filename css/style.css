@@ -146,7 +146,9 @@ img {
 .boton--secundario {
     background-color: var(--primario);
 }
-
+.cursos {
+    list-style: none;
+}
 .widget-curso {
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
@@ -155,10 +157,6 @@ img {
     border: none;
     margin-bottom: 0;
 }
-.cursos {
-    list-style: none;
-}
-
 .widget-curso__label {
     font-family: var(--fuenteHeading);
     font-weight: bold;
@@ -186,6 +184,7 @@ img {
     }
 }
 
+/** Cursos **/
 .curso {
     padding: 3rem 0;
     border-bottom: 1px solid var(--gris);
@@ -200,15 +199,14 @@ img {
 .curso:last-of-type {
     border: none;
 }
-
-.widget-curso__label {
+.curso__label {
     font-family: var(--fuenteHeading);
     font-weight: bold;
 }
-.widget-curso__info {
+.curso__info {
     font-weight: normal;
 }
-.widget-curso__label,
-.widget-curso__info {
+.curso__label,
+.curso__info {
     font-size: 2rem;
 }
